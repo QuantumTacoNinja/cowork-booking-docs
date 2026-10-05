@@ -1,6 +1,6 @@
 # Cowork Booking architecture
 
-Three services, three repos, three databases. Only Purchase calls the other two. This page says what runs where, who owns which data, how the services talk, and how they stay consistent without a shared transaction. Rules are in RULES.md, decisions D1-D28 in DECISIONS.md, and the reasons behind each structural choice in `adr/` (ADR-0001 to ADR-0020).
+Three services, three repos, one database with a schema per service (ADR-0022). Only Purchase calls the other two. This page says what runs where, who owns which data, how the services talk, and how they stay consistent without a shared transaction. Rules are in RULES.md, decisions D1-D28 in DECISIONS.md, and the reasons behind each structural choice in `adr/` (ADR-0001 to ADR-0020).
 
 ## Overview
 

@@ -8,7 +8,7 @@ To change a decision, add a new ADR that supersedes the old one, and set the old
 |---|---|---|---|
 | [ADR-0001](0001-three-contexts.md) | Three contexts, three services | Accepted, 2026-10-01 | PUR-R17, PUR-R19, PUR-R26, PUR-R29, PUR-R32, PUR-R35, PMT-R04, PMT-R18, AXS-R04, AXS-R17 |
 | [ADR-0002](0002-member-in-purchase.md) | Account data on Member in Purchase, no Identity context | Accepted, 2026-10-01 | PUR-R01, PUR-R02, PUR-R03, PUR-R04, PUR-R05, PUR-R06, PUR-R19, AXS-R03, AXS-R09 |
-| [ADR-0003](0003-database-per-service.md) | Database per service | Accepted, 2026-10-01 | PUR-R29, PUR-R32, PUR-R34, PUR-R35, PMT-R04, PMT-R16, PMT-R17, PMT-R18, AXS-R03, AXS-R04, AXS-R11, PUR-R38, PMT-R20, AXS-R19 |
+| [ADR-0003](0003-database-per-service.md) | Database per service | Superseded by ADR-0022 | PUR-R29, PUR-R32, PUR-R34, PUR-R35, PMT-R04, PMT-R16, PMT-R17, PMT-R18, AXS-R03, AXS-R04, AXS-R11, PUR-R38, PMT-R20, AXS-R19 |
 | [ADR-0004](0004-purchase-only-caller-no-webhooks.md) | Only Purchase calls other services; no webhooks | Accepted, 2026-10-01 | PUR-R22, PUR-R24, PUR-R25, PUR-R26, PUR-R31, PUR-R32, PUR-R35, PUR-R40, PMT-R01, PMT-R06, PMT-R10, PMT-R11, PMT-R18, AXS-R04, AXS-R17 |
 | [ADR-0005](0005-contracts-beside-provider.md) | Contracts live beside the provider's code | Accepted, 2026-10-01 | PUR-R23, PUR-R26, PUR-R35, PMT-R01, PMT-R02, PMT-R03, PMT-R06, PMT-R14, AXS-R01, AXS-R02, AXS-R03, AXS-R04, AXS-R17 |
 | [ADR-0006](0006-copy-and-prune-seeding.md) | Seed three repos by copy-and-prune | Accepted, 2026-10-01 | PUR-R17, PUR-R22, PMT-R08, PMT-R13, AXS-R05 |
@@ -27,3 +27,4 @@ To change a decision, add a new ADR that supersedes the old one, and set the old
 | [ADR-0019](0019-service-authentication.md) | Service authentication | Accepted, 2026-10-01 | PMT-R01, AXS-R04, PMT-R17, AXS-R11, PUR-R02, PUR-R03, PUR-R04, PUR-R05, PUR-R06, PUR-R35, PMT-R07, AXS-R09 |
 | [ADR-0020](0020-card-data-handling.md) | Card data handling | Accepted, 2026-10-01 | PMT-R08, PMT-R13, PMT-R16, PMT-R17, PMT-R19, PUR-R36 |
 | [ADR-0021](0021-course-target-alignment.md) | Alignment with the course's "ready for splitting" target | Accepted | PUR-R17, PUR-R20, PUR-R23, PUR-R24, PUR-R25, PUR-R26, PUR-R41, AXS-R05, AXS-R09 |
+| [ADR-0022](0022-one-database-schema-per-context.md) | One database, one schema and role per context | Accepted, 2026-10-05 | PUR-R28, PUR-R29, PUR-R32, PUR-R35, PMT-R04, PMT-R16, PMT-R18, AXS-R01, AXS-R03, AXS-R04, AXS-R17 |
